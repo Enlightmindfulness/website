@@ -48,7 +48,7 @@
   /* padding-top: 200px !imposrtant; */
 }
 .rs-margin-top--200 {
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 .rs-margin-right--15 {
   margin-right: 15px;
@@ -171,4 +171,138 @@
 }
 .rs-align--center {
   align-items: center;
+}
+
+.rs-bg-image--none {
+  background-image: none;
+}
+
+.rs-breakup-image {
+  background-image: url("../images/breakup.png") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+  /* max-height: 400 !important;
+  max-width: 400 !important; */
+}
+.rs-stress-image {
+  background-image: url("../images/stress-image.jpg") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+.rs-enhance-confidance-image {
+  background-image: url("../images/enhance-confidance.png") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.rs-realtionship-councelling-image {
+  background-image: url("../images/relationship.png") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+.rs-cbt-image {
+  background-image: url("../images/cbt.jpg") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+.rs-depression-image {
+  background-image: url("../images/depression.jpg") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+.rs-women-counceling-image {
+  background-image: url("../images/women-counceling.png") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+.rs-ocd-image {
+  background-image: url("../images/ocd.jpg") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+.rs-phy-image {
+  background-image: url("../images/phy.jpg") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+* {
+  word-wrap: break-word;
+}
+.rs-logo-image {
+  max-height: 60px !important;
+  max-width: 50px !important;
+}
+.rs-about-container {
+  margin-top: 200px !important;
+}
+.rs-service-container h5 {
+  font-size: 35px !important;
+}
+.rs-service-container h6 {
+  font-size: 30px !important;
+}
+.rs-service-container p,
+li {
+  font-size: 20px !important;
+}
+
+.rs-section-hiw {
+}
+.rs-section-hiw .rs-section-hiw-head-text,
+.rs-section-plan .rs-section-plan-text,
+.rs-section-client-reviews .rs-section-client-reviews-text {
+  font-size: 35px !important;
+}
+.rs-section-client-reviews-text {
+}
+
+.rs-section-plan {
+}
+
+.rs-section-plan-text {
+}
+
+@media (max-width: 575px) {
+  .rs-logo-image {
+    width: 35px !important;
+    height: 40px !important;
+  }
+  .rs-header .rs-header-title {
+    font-size: 18px !important;
+  }
+  .top-nav button.navbar-toggler {
+    display: none !important;
+  }
+  .rs-body .rs-about-section .rs-about-container {
+    margin-top: 100px !important;
+  }
+  .rs-about-container .rs-list-icon {
+    width: 60px;
+    height: 50px;
+  }
+  .rs-about-container .rs-list-head {
+    font-size: 20px;
+    font-weight: 520;
+  }
+  .rs-section-hiw .rs-section-hiw-head-text,
+  .rs-services-container-head-text,
+  .rs-section-plan .rs-section-plan-text,
+  .rs-section-client-reviews .rs-section-client-reviews-text {
+    font-size: 25px !important;
+    font-weight: 600 !important;
+  }
+  .rs-service-container {
+    margin-top: 20px;
+  }
+  .rs-service-container h5 {
+    font-size: 28px !important;
+  }
+  .rs-service-container p,
+  li {
+    font-size: 16px !important;
+  }
+  .rs-service-container h6 {
+    font-size: 20px !important;
+  }
 }
